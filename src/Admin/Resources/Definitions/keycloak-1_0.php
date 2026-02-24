@@ -2800,6 +2800,11 @@ $RealmRepresentation = array(
         'type' => 'string',
         'required' => false
     ),
+    'firstBrokerLoginFlow' => array(
+        'location' => 'json',
+        'type' => 'string',
+        'required' => false
+    ),
     'duplicateEmailsAllowed' => array(
         'location' => 'json',
         'type' => 'boolean',
