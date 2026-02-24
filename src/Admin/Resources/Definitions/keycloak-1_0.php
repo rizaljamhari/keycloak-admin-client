@@ -197,6 +197,11 @@ $AuthenticationExecutionInfoRepresentation = array(
         'type' => 'integer',
         'required' => false
     ),
+    'priority' => array(
+        'location' => 'json',
+        'type' => 'integer',
+        'required' => false
+    ),
     'providerId' => array(
         'location' => 'json',
         'type' => 'string',
